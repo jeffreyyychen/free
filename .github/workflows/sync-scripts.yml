@@ -35,6 +35,6 @@ jobs:
         dst: gitee/chj545
         static_list: "free"
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-        dst_token: ${{ secrets.GITEE_TOKEN }}
+        dst_token: ${{ secrets.GITEE_TOKEN }} 
         force_update: true
         clone_style: "ssh"
